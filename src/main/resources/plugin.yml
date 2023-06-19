@@ -1,0 +1,10 @@
+name: ResourcePackCompiler
+version: '${project.version}'
+main: ru.permasha.resourcepackcompiler.Main
+api-version: 1.19
+commands:
+  pack:
+    description: Compile to zip resourcepack and send to all players
+permissions:
+  qbengine.command.pack:
+    description: Permits player to use pack command
