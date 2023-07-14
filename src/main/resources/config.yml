@@ -1,2 +1,11 @@
 http:
-  port: 80
+  localhost:
+  port: 8125
+  host:
+  numReadThread: 4
+  numWriteThread: 4
+
+resource-pack:
+  use-minepack: false
+  send-to-player: true
+  force-on-join: true
